@@ -20,6 +20,7 @@ Quality issues_ Columns with too many missing values were dropped using the pand
 
 Columns with wrong data types were converted to the correct data type using the ‘astype’ function.The tweet ID was converted to an object data type, the timestamp column was converted to a datetime data type using the ‘_pd.todatetime’ function. Two columns were also converted to the category which include: The dog stage columns and the tweet Id columns using the astype('category') function. The rating numerator and the rating denominator columns were converted to float data type using the astype('float') function. The source name was extracted using the split function to get the last word which is the source name.
 
-## Data visualization From my visualizations, I observed that the iphone accounts for the source of about 90% of the tweets. The golden retriever dog specie was the most predicted specie of dog and the labrador retriever was the second most predicted dog specie.
+## Data visualization 
+>From my visualizations, I observed that the iphone accounts for the source of about 90% of the tweets. The golden retriever dog specie was the most predicted specie of dog and the labrador retriever was the second most predicted dog specie.
 
 Finally, I stored the clean data as a _'twitter_archivemaster.csv' file.
